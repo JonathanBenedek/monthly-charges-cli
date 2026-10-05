@@ -37,7 +37,7 @@ MISSING_CLIENT_SECRET
 Expected file: $CLIENT_SECRET
 
 This file is intentionally NOT in this repo. It must come from whoever already
-set up this app's Google OAuth client (Jonathan) — via email, AirDrop, etc.
+set up this app's Google OAuth client — via email, AirDrop, etc.
 
 ACTION REQUIRED (for an AI agent running this script): stop here and ask the
 human user to obtain this file and save it to the exact path above, then

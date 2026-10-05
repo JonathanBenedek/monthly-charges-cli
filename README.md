@@ -19,7 +19,7 @@ If you were handed a link to this repo and asked to set up the CLI, do this:
 3. **If the script prints `MISSING_CLIENT_SECRET`: stop and ask the human
    user for the file.** It's `~/.monthly-charges/credentials/client_secret.json`
    — a shared OAuth client config that is deliberately *not* in this repo.
-   The user should already know to get it from Jonathan (email, AirDrop, a
+   The user should already know to get it from whoever already set up this app's OAuth client (email, AirDrop, a
    USB stick — any transfer method works, it's just a file). Once they
    confirm it's in place at that exact path, re-run `./setup.sh`.
 4. The script will then run `node bin/cli.js auth` — this opens a browser
