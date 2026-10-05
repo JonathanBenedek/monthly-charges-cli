@@ -1,0 +1,22 @@
+{
+  "name": "monthly-charges-cli",
+  "version": "1.0.0",
+  "description": "CLI for adding/editing monthly expense data in the Google Drive store used by the Monthly Charges web app.",
+  "main": "bin/cli.js",
+  "bin": {
+    "monthly-charges-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "cli": "node bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
+  }
+}

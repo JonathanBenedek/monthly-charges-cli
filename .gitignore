@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+
+# OAuth credentials are cached outside this repo entirely, at
+# ~/.monthly-charges/credentials/ — never commit one that ends up here by accident.
+client_secret*.json
+token.json
